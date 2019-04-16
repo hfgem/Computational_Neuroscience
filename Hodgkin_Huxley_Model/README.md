@@ -2,7 +2,7 @@
 
 Author: Hannah Germaine
 
-Summary: This model describes the generation and propagation of action potentials (APs) through sodium and potassium channels. This model was published by Alan Hodgkin and Andrew Huxley in the 1950s, and was the result of analysis of electrophysiological data from the giant squid axon. It serves as a basis for all complex conductance-based models in computational neuroscience.
+Summary: This model describes the generation and propagation of action potentials (APs) through sodium and potassium channels. It was published by Alan Hodgkin and Andrew Huxley in the 1950s, and was the result of analysis of electrophysiological data from the giant squid axon. It serves as a basis for all complex conductance-based models in computational neuroscience.
 
 Detail: The HH model revolves about four variables: membrane potential (v_m), sodium activation (m), sodium inactivation (h), and potassium activation (n). The three variables m, h, and n, are together known as gating variables because they describe the open or closed nature (like a gate) of the channels they reference.
 
