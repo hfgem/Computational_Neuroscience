@@ -58,7 +58,7 @@ The final key to the Hodgkin-Huxley model is the set of rate constants (the alph
 
 ![rate_constants](https://github.com/hfgem/Computational_Neuroscience/blob/master/Hodgkin_Huxley_Model/Images/rate_constants.png)
 
-# Hodgkin_Hyxley.py
+# Hodgkin_Huxley.py
 
 This program includes functions for calculating the membrane potential and gating variable dynamics in a Hodgkin-Huxley model simulation. The first function, hod_hux, performs the bulk of the calculations and ultimately returns the output vectors. The functions hod_hux_rate_constants and hod_hux_support assist in the calculations needed for the rate constants at all points in time, as well as the time constants and steady states of the rate constants.
 
