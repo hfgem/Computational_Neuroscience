@@ -1,4 +1,4 @@
-# Computational_Neuroscience
+# Computational Neuroscience
 Summary: A collection of work in the realm of Computational Neuroscience.
 
 In this repository you will find Python code for a number of models used in Computational Neuroscience including:
