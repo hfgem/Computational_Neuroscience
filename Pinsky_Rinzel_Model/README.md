@@ -16,11 +16,11 @@ Detail: The Pinsky-Rinzel model revolves about two compartments: one for the den
 
 Here we have an image of the two compartments and their currents:
 
-![PR_Model](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pi nsky_Rinzel_Model/Images/PR_Model.png)
+![PR_Model](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pinsky_Rinzel_Model/Images/PR_Model.png)
 
 To simulate the behavior of a two-compartmental neuron, we write two dynamical equations, one for each compartment, as follows:
 
-![PR_Equations](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pi nsky_Rinzel_Model/Images/PR_Equations.png)
+![PR_Equations](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pinsky_Rinzel_Model/Images/PR_Equations.png)
 
 The variables in the equations are as follows:
 * C_S is the membrane capacitance for the soma
@@ -44,13 +44,13 @@ The variables in the equations are as follows:
 
 The gating variables m, h, n, m_Ca, m_KCa, and m_KAHP are described by the following set of dynamical equations (the explanation can be found at <https://github.com/hfgem/Computational_Neuroscience/blob/master/Hodgkin_Huxley_Model/> in the explanation of a two-state system):
 
-![gating_eqns](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pi nsky_Rinzel_Model/Images/gating_eqns.png)
+![gating_eqns](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pinsky_Rinzel_Model/Images/gating_eqns.png)
 
 The alpha and beta values differ for each value and are slightly exhaustive to write out in this file, but can be found in the PR_dend_gating.py and PR_soma_gating.py files.
 
 The gating variable X is a calcium-dependent term that contributes to I_KCa and responds instantaneously, unlike the other gating variables, as follows:
 
-![gating_eqns](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pi nsky_Rinzel_Model/Images/chi_dynamics.png)
+![gating_eqns](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pinsky_Rinzel_Model/Images/chi_dynamics.png)
 
 Here we take the minimum of 4000 time the concentration of calcium and 1.
 
