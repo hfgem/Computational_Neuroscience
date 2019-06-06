@@ -15,6 +15,7 @@ Detail: The Pinsky-Rinzel model revolves about two compartments: one for the den
 * I_Leak_D - a small outward leak current from the dendrite
 
 Here we have an image of the two compartments and their currents:
+
 ![PR_Model](https://github.com/hfgem/Computational_Neuroscience/blob/master/Pi nsky_Rinzel_Model/Images/PR_Model.png)
 
 To simulate the behavior of a two-compartmental neuron, we write two dynamical equations, one for each compartment, as follows:
